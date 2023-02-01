@@ -326,11 +326,7 @@ export default {
         },
         {
           title: "Task To Do",
-          list: [
-            "Read new CSS-Tricks articles",
-            "Begin draft of CSS Grid article",
-            "Begin draft of CSS Grid article",
-          ],
+          list: ["007", "Begin draft of CSS Grid article"],
           subtaskTitle: "",
           btnsubEnable: false,
         },
@@ -338,22 +334,22 @@ export default {
       backgroundthemes: ["#000000", "#42A98F", "#297afb", "#2898fb", "#01d8fd"],
       imgs: [
         {
-          bgimg: require("@/assets/1.png"),
+          bgimg: require("@/assets/3.jpeg"),
         },
         {
-          bgimg: require("@/assets/2.png"),
+          bgimg: require("@/assets/2.jpeg"),
         },
         {
-          bgimg: require("@/assets/3.png"),
+          bgimg: require("@/assets/1.jpeg"),
         },
         {
-          bgimg: require("@/assets/6.png"),
+          bgimg: require("@/assets/5.jpeg"),
         },
         {
-          bgimg: require("@/assets/7.png"),
+          bgimg: require("@/assets/4.webp"),
         },
         {
-          bgimg: require("@/assets/8.png"),
+          bgimg: require("@/assets/7.webp"),
         },
         // require("@/assets/1.png"),
         // require("@/assets/2.png"),
@@ -627,5 +623,25 @@ input[type="color"] {
   display: grid;
   grid-template: 70px / auto auto auto;
   padding: 10px;
+}
+
+@media (max-width: 780px) {
+  .filter.icons.icon3 {
+    display: none !important;
+  }
+  .board-h.icons.icon3.d-flex.align-baseline {
+    display: none !important;
+  }
+  .icons.icon2 {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .btn.btn-light {
+    display: none;
+  }
+  .after-nav-section {
+    margin-top: 5px;
+  }
 }
 </style>
