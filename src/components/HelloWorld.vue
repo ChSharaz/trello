@@ -329,6 +329,7 @@ export default {
           list: [
             "Read new CSS-Tricks articles",
             "Begin draft of CSS Grid article",
+            "Begin draft of CSS Grid article",
           ],
           subtaskTitle: "",
           btnsubEnable: false,
