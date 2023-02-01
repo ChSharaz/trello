@@ -621,7 +621,7 @@ input[type="color"] {
   height: 120px;
 }
 .clr-btn {
-  text-align: right;
+  text-align: center;
 }
 .background-theme {
   display: grid;
