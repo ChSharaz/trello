@@ -64,7 +64,7 @@
       >
         <div class="first d-flex justify-content-between align-items-center">
           <div class="title icons d-flex align-baseline mr-2">
-            <h6>Usama Task</h6>
+            <h6>Muhammad Sharaz</h6>
             <b-icon class="mr-2 ml-2 icon1" icon="star"></b-icon>
           </div>
           <div class="filter icons icon3 d-flex align-baseline mr-2">
